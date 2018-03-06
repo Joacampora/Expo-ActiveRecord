@@ -1,0 +1,37 @@
+<%= form_with(model: calificacione, local: true) do |form| %>
+  <% if calificacione.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(calificacione.errors.count, "error") %> prohibited this calificacione from being saved:</h2>
+
+      <ul>
+      <% calificacione.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :corte1 %>
+    <%= form.text_field :corte1, id: :calificacione_corte1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :corte2 %>
+    <%= form.text_field :corte2, id: :calificacione_corte2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :corte3 %>
+    <%= form.text_field :corte3, id: :calificacione_corte3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :final %>
+    <%= form.text_field :final, id: :calificacione_final %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

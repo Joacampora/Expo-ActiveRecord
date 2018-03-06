@@ -1,0 +1,2 @@
+class AcStory < ApplicationRecord
+end

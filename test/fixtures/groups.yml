@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: 
+  schedule: 2018-03-06 20:57:30
+  clashroom: MyString
+
+two:
+  code: 
+  schedule: 2018-03-06 20:57:30
+  clashroom: MyString

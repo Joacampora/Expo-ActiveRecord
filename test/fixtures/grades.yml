@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sprint1: 1.5
+  sprint2: 1.5
+  sprint3: 1.5
+  final: 1.5
+
+two:
+  sprint1: 1.5
+  sprint2: 1.5
+  sprint3: 1.5
+  final: 1.5
